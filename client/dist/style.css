@@ -1,6 +1,6 @@
 html, body {
     max-width: 100%;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 body {
@@ -43,7 +43,6 @@ body {
 .side-menu {
     width: 320px;
     height: 750px;
-    /* border: solid 3px; */
     position: sticky;
     top: 0px;
 }
