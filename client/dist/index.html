@@ -6,10 +6,12 @@
   <link rel="stylesheet" type="text/css" href="style.css">
   <title>My test page</title>
 </head>
-
+<script>function test(e) {
+  console.log(e.target)
+}</script>
 <body>
   <img src="./images/menu.png" id='menu'>
-  <div class="cole-container">
+  <div class="cole-container" onclick="test()">
     <div class="Cole" id="gallery"></div>
   </div>
   <div class="largerContainer">
