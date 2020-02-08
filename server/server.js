@@ -29,8 +29,8 @@ app.get('/restaurants', function(req, res) {
         })
 })
 
-app.get('/api/reservations', function(req, res) {
-    axios.get('http://localhost:3002/api/reservations')
+app.get('/reservations', function(req, res) {
+    axios.get('http://localhost:3002/reservations')
         .then((response) => {
             res.end(response.data)
         })
