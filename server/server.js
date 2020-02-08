@@ -32,7 +32,7 @@ app.get('/restaurants', function(req, res) {
 app.get('/reservations', function(req, res) {
     axios.get('http://localhost:3002/reservations')
         .then((response) => {
-            res.end(response.data)
+            res.end(JSON.stringify(response.data))
         })
         .catch((err) => {
             res.end(err);
