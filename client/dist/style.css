@@ -9,10 +9,13 @@ body {
     flex-direction: column;
 }
 
+.cole-container {
+    z-index: 11;
+}
+
 .Cole {
     height: 340px;
     margin-top: -20px;
-    z-index: 11;
 }
 
 .left-column {
